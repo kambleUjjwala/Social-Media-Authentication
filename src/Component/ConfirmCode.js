@@ -11,7 +11,7 @@ const ConfirmCode=(email,code)=>{
     
   })
   .then(data => console.log(data))
-  .catch(err => console.log("get failed", err));
+  .catch(err => console.log("failed", err));
 
 
 
