@@ -79,6 +79,9 @@ const App=()=>{
           <br/><Field name="email" placeholder='enter your email'/><br/>
            <br/><Field type="password" name="password" placeholder='Enter full password' /><br/>
            <br/> <button className="text-center">Log In</button>
+           <button className="text-center">Sign in with google</button>
+
+
 
 
            </Form>)}
