@@ -37,7 +37,7 @@ Amplify.configure({
 const signin=({email,password})=>{
 
   Auth.signIn(email,password).then(user => console.log('success',user))
-  .catch(err => console.log("failed", err));
+  .catch(err => console.log("failed to login", err));
 
 
 
